@@ -1,0 +1,49 @@
+body {
+  flex-flow: column;
+  height: 100vh;
+  justify-content: space-around;
+  background: #232323;
+}
+
+.header1 {
+  margin: 10px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 5px;
+  padding: 0;
+  flex: 1 0 auto;
+}
+ul li {
+  list-style: none;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.header1 {
+  border-radius: 5px;
+  background-color: #E34E49;
+  font-family: "Arsenal", sans-serif;
+}
+.header1 li {
+  font-family: "LiGothic", "FangSong", Arial, cursive;
+  font-size: 24px;
+  color: Snow;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+  
+}
+.header1 li:hover {
+  border-bottom: 2px solid #911D17;
+  cursor:pointer;
+}
+.header1 li:nth-child(1) {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 1.2em;
+  
+}

@@ -1,0 +1,11 @@
+body {
+  background: #232323;
+}
+
+tr:hover td{
+    background-color:#99FF99;
+}
+td{
+  font-family: "LiGothic", "FangSong", Arial, cursive;
+  font-size: 24px;
+}
